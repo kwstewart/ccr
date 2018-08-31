@@ -11,6 +11,7 @@
 <html <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
+        <meta name="google-site-verification" content="3GuQvqX8g3RL4d-N58BSrB7byxL0PKnJGibkexaZ7H0" />
 
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<?php composer_head(); ?>
