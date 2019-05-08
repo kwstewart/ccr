@@ -1940,5 +1940,12 @@ if( !function_exists( 'composer_add_current_nav_class' ) ) {
 
 remove_filter('widget_text_content', 'wpautop');
 
+
+/**
+* Disable cart
+*/
+remove_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart');
+remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart');
+
 // remove ultimate addon activation notice
 define('BSF_PRODUCTS_NOTICES', false);
