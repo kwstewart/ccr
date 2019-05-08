@@ -17229,6 +17229,3 @@ blockquote, .pix_icon_box:hover .circle, .pix_icon_box:hover .square:after, .pix
 .light .pix-recent-blog-posts.blog-modern .content .title a {
 	color: #fff;
 }
-
-.woocommerce .add_to_cart_button { display:none; }
-.woo-products .cart { display:none; }
