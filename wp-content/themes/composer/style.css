@@ -24,3 +24,6 @@ Great work, Theme Check (eye roll)
 .sticky {}          /* DO NOT EDIT THIS */
 .gallery-caption {} /* THESE ARE USELESS */
 .bypostauthor {}    /* THEY ARE ONLY TO KEEP THEME CHECK HAPPY */
+
+.woocommerce .add_to_cart_button { display:none; }
+.woo-products .cart { display:none; }
